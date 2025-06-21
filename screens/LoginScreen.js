@@ -1,8 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Text, TextInput, TouchableOpacity, View } from 'react-native';
-import axios from 'axios';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import "../global.css"
 import { AuthContext } from '../context/AuthContext';
 
